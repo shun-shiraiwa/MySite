@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault();
       const data = new URLSearchParams(new FormData(form));
       fetch(
-        "https://script.google.com/macros/s/AKfycbzc9_EEADMKLglusl31eEtQ-3yNCguT973dXgoDBDuKqHvMa_q4_iaAQk7pP1ZsbfcX/exec" +
+        "https://script.google.com/macros/s/AKfycbzza6mau7sKo0tF0j-V2KaWZ6R0HWceozGriI6aHtM/dev" +
           data,
         {
           method: "GET",
